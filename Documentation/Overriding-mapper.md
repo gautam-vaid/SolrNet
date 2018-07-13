@@ -35,3 +35,4 @@ var mapper = new MappingManager();
 var c = new StandardKernel();
 c.Load(new SolrNetModule("http://localhost:8983/solr") {Mapper = mapper});
 ```
+# Gautam Vaid
